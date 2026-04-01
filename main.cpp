@@ -3,12 +3,13 @@ using namespace std;
 #include "student.h"
 
 int main(){
-MU_Person m;
- 
-	//student m1(6613121,2,"Vivi"),m2(112),m3;
- // student m1(6613118,3.9,"Atom");
-//student m2(6613112),m3,*p;
-  //m1.display(); // id gpa name
+  MU_person m(12345678);
+  m.display_person();
+
+	student m1(6613121,2,"Vivi",123456789);//,m2(112),m3;
+  //student m1(6613118,3.9,"Atom");
+  //student m2(6613112),m3,*p;
+  m1.display(); // id gpa name
   cout<<endl<<"======="<<endl;
   //m1.display_person(); //id
 
